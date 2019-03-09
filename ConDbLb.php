@@ -5,9 +5,8 @@
 		$user = 'root';
 		$pass = '';
 		$dbName = 'library';
-	
 
-	$con = new mysqli($host,$user,$pass,$dbName)
+	$con = new mysqli($host,$user,$pass,$dbName);
 	return $con;
 	}
 
